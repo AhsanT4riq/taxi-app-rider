@@ -1,0 +1,75 @@
+{
+  "expo": {
+    "name": "SheSafe-Rider",
+    "sdkVersion": "24.0.0",
+    "privacy": "public",
+    "icon": "./assets/images/taxiApp.png",
+    "slug": "SheSafe-Rider",
+    "notification": {
+      "icon": "./assets/images/notification.png",
+      "color": "#ff1495"
+    },
+    "ios": {
+      "bundleIdentifier": "com.shesafe.rider",
+      "icon": "./assets/images/taxiApp.png",
+      "config": {
+        "googleSignIn": {
+          "reservedClientId":
+            "805539794872-s9o2jt8l5er0mp5uidj9ak0f1h3chpqp.apps.googleusercontent.com"
+        }
+      }
+    },
+    "android": {
+      "package": "com.shesafe.rider",
+      "icon": "./assets/images/taxiApp.png",
+      "permissions": [
+        "CAMERA",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "MANAGE_DOCUMENTS"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyAPy5G3kuay-6yqhoqxuc1vMwK-mPxGxHM"
+        },
+        "googleSignIn": {
+          "certificateHash":
+            "805539794872-jb1vv12mh1k90fpuo7ki3cku1ietb30e.apps.googleusercontent.com"
+        }
+      }
+    },
+    "loading": {
+      "hideExponentText": true,
+      "icon": "./assets/images/loading.png",
+      "backgroundImage": "./assets/images/launchImages/splashscreen.png"
+    },
+    "splash": {
+      "image": "./assets/images/splashN.png",
+      "backgroundColor": "#fa8de0",
+      "resizeMode": "cover"
+    },
+    "orientation": "portrait",
+    "primaryColor": "#cccccc",
+    "facebookScheme": "fb1919559661598816",
+    "packagerOpts": {
+      "assetExts": ["ttf"]
+    },
+    "androidStatusBarColor": "#ff1495",
+    "androidStatusBar": {
+      "barStyle": "dark-content",
+      "backgroundColor": "#ff1495"
+    }
+  },
+  "hooks": {
+    "postPublish": [
+      {
+        "file": "sentry-expo/upload-sourcemaps",
+        "config": {
+          "organization": "SheSafe",
+          "project": "SheSafeRider",
+          "authToken": "02d18778a1c411e781684201c0a8d046"
+        }
+      }
+    ]
+  }
+}

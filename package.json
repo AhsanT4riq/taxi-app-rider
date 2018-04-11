@@ -1,0 +1,63 @@
+{
+  "name": "StrapTaxiApp-Rider",
+  "version": "4.1.1",
+  "private": true,
+  "devDependencies": {
+    "react-native-scripts": "1.8.1",
+    "jest-expo": "^24.0.0",
+    "react-test-renderer": "16.2.0",
+    "babel-eslint": "^8.2.1",
+    "babel-jest": "22.1.0",
+    "babel-preset-react-native": "4.0.0",
+    "chai": "^4.1.2",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb": "16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-react-native": "^3.2.1",
+    "jest": "22.1.1",
+    "jest-react-native": "18.0.0",
+    "mocha": "^4.1.0",
+    "remote-redux-devtools-on-debugger": "^0.8.3"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^6.2.2",
+    "@mapbox/polyline": "^0.2.0",
+    "color": "2.0.1",
+    "expo": "^24.0.2",
+    "lodash": "^4.17.4",
+    "moment": "^2.20.1",
+    "native-base": "2.3.6",
+    "prop-types": "^15.6.0",
+    "react": "16.2.0",
+    "react-native": "0.51.0",
+    "react-native-communications": "^2.2.1",
+    "react-native-country-picker-modal": "0.5.1",
+    "react-native-credit-card-input": "0.4.1",
+    "react-native-modalbox": "^1.4.2",
+    "react-native-router-flux": "4.0.0-beta.27",
+    "react-native-vector-icons": "4.5.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-form": "7.2.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^4.10.1",
+    "redux-persist-transform-filter": "0.0.16",
+    "redux-thunk": "^2.2.0",
+    "remote-redux-devtools": "^0.5.12",
+    "sentry-expo": "1.7.0",
+    "socket.io-client": "^2.0.4",
+    "whatwg-fetch": "^2.0.3"
+  }
+}
